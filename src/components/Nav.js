@@ -14,7 +14,6 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
-
 import { FaInstagram } from "react-icons/fa";
 import { GiHairStrands } from "react-icons/gi";
 
@@ -50,14 +49,17 @@ function Nav() {
               <NavLink className="nav" to="/advertising">Advertising</NavLink>  
             </HStack>
           </HStack>
-          <Flex alignItems={'center'}>
-            <IconButton>
-              <FaInstagram />
-            </IconButton>
+          <Flex alignItems={'center'} justifyContent={'space-between'}>
+            <a rel="noopener noreferrer" href="https://www.instagram.com/sofirub/" target="_blank">            
+              <IconButton m={3}>
+                <FaInstagram />
+              </IconButton>
+            </a>
             <Spacer />
             <IconButton>
             <Toggle />
             </IconButton>
+            
           </Flex>
         </Flex>
         {isOpen ? (

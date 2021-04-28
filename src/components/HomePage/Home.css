@@ -14,6 +14,7 @@
   background-color: brown;
   margin: 2.5px;
   border-radius: 1%;
+  box-sizing: border-box;
 }
 
 #sections{
@@ -24,6 +25,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
 .boxes {
@@ -32,6 +34,7 @@
   border:  solid #704C5E;
   border-radius: 3%;
   position: relative;
+  box-sizing: border-box;
 }
 
 .image {
@@ -40,7 +43,7 @@
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-
+  box-sizing: border-box;
 }
 
 .overlay {
@@ -56,6 +59,7 @@
   background-color: #fec5bb;
   border:  solid #704C5E;
   border-radius: 3%;
+  box-sizing: border-box;
 }
 
 .boxes:hover .overlay {
@@ -77,23 +81,85 @@
 #editorial{
   width: 68%;
   height: 220px;
+  box-sizing: border-box;
   /* background-color: burlywood; */
 }
 
 #beauty{
   width: 28%;
   height: 220px;
+  box-sizing: border-box;
   /* background-color: rgb(59, 105, 98); */
 }
 
 #grooming{
   width: 28%;
   height: 220px;
+  box-sizing: border-box;
   /* background-color: rgb(175, 36, 133); */
 }
 
 #advertising{
   width: 68%;
   height: 220px;
+  box-sizing: border-box;
   /* background-color: rgb(12, 20, 134); */
 }
+
+@media (max-width: 400px) {
+  #mainContainer{
+    display: flex;
+    width: 100%;
+    height: 1024px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fae1dd;
+  }
+
+  #instagram{
+    width: 100%;
+    display: none;
+  }
+  #editorial{
+    width: 100%;
+  }
+  
+  #beauty{
+    width: 100%;
+  }
+  
+  #grooming{
+    width: 100%;
+
+  }
+  
+  #advertising{
+    width: 100%;
+  }
+  #sections{
+    margin: 2.5px;
+    width: 100%;
+    height: 1024px;
+    background-color: #fae1dd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+  }
+  
+  .boxes {
+    width: 100%;
+    border:  solid #704C5E;
+    border-radius: 3%;
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+
+/* @media (max-width: 400px) {
+  #box1, #box2, #box3, #box4, #box5, #box6 {
+      width: 100%;
+      
+  }
+} */
