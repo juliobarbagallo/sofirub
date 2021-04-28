@@ -1,0 +1,146 @@
+#mainContainer{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+
+#instagram{
+  width: 30%;
+  height: 450px;
+  background-color: brown;
+  margin: 2.5px;
+  border-radius: 1%;
+
+}
+
+#sections{
+  margin: 2.5px;
+  width: 60%;
+  height: 450px;
+  background-color: cornsilk;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.boxes {
+  width: 30%;
+  height: 220px;
+  border:  solid black;
+  border-radius: 1%;
+  
+  
+}
+
+
+
+
+
+/* sdaadssa */
+
+span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 40%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.boxes figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.boxes figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/* dsffrtret */
+
+
+
+#editorial{
+  width: 30%;
+  height: 200px;
+  background-color: burlywood;
+
+}
+
+#beauty{
+  width: 30%;
+  height: 200px;
+  background-color: rgb(59, 105, 98);
+}
+
+#grooming{
+  width: 30%;
+  height: 200px;
+  background-color: rgb(175, 36, 133);
+}
+
+#advertising{
+  width: 30%;
+  height: 200px;
+  background-color: rgb(12, 20, 134);
+}

@@ -1,0 +1,99 @@
+#mainContainer{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fae1dd;
+}
+
+#instagram{
+  width: 30%;
+  height: 450px;
+  background-color: brown;
+  margin: 2.5px;
+  border-radius: 1%;
+}
+
+#sections{
+  margin: 2.5px;
+  width: 60%;
+  height: 450px;
+  background-color: #fae1dd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.boxes {
+  /* width: 100px;
+  height: 220px; */
+  border:  solid #704C5E;
+  border-radius: 3%;
+  position: relative;
+}
+
+.image {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fec5bb;
+  border:  solid #704C5E;
+  border-radius: 3%;
+}
+
+.boxes:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#editorial{
+  width: 68%;
+  height: 220px;
+  /* background-color: burlywood; */
+}
+
+#beauty{
+  width: 28%;
+  height: 220px;
+  /* background-color: rgb(59, 105, 98); */
+}
+
+#grooming{
+  width: 28%;
+  height: 220px;
+  /* background-color: rgb(175, 36, 133); */
+}
+
+#advertising{
+  width: 68%;
+  height: 220px;
+  /* background-color: rgb(12, 20, 134); */
+}
