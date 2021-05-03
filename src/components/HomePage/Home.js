@@ -7,6 +7,7 @@ import groomingCover from '../../img/covers/grooming.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from "react";
+import Instagram from '../InstagramPage/Instagram'
 
 function Home () {
   useEffect(() => {
@@ -23,14 +24,12 @@ function Home () {
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
     <div id="mainContainer">
-        <div id="instagram" data-aos="fade-in">
-        <Link to= "/instagram">
-          <p>instagram</p>
-          </Link>
+        <div id="instagram" data-aos="zoom-in">
+        <Instagram />
         </div>
         <div id="sections">  
         
-          <div id="editorial" className="boxes" data-aos="fade-down">
+          <div id="editorial" className="boxes" data-aos="fade-down-right">
             {/* <img src="http://sofirub.com/wp-content/uploads/2020/11/verasi.001.jpeg" alt="Avatar" class="image" /> */}
             <img  src={editorialCover} alt="cover" className="image" />
             <div className="image"></div>
@@ -41,7 +40,7 @@ function Home () {
               </Link>
             </div>
 
-          <div id="beauty" className="boxes" data-aos="fade-left">
+          <div id="beauty" className="boxes" data-aos="fade-down-left">
             {/* <img src="http://sofirub.com/wp-content/uploads/2020/05/EDIT-NANCY-2.jpg" alt="Avatar" class="image"/> */}
             <img  src={beautyCover} alt="cover" className="image" />
             <Link to= "/beauty">
@@ -50,14 +49,14 @@ function Home () {
               </div>
             </Link>
           </div>
-          <div id="grooming" className="boxes" data-aos="fade-up">
+          <div id="grooming" className="boxes" data-aos="fade-up-right">
             {/* <img src="http://sofirub.com/wp-content/uploads/2020/03/FW20-07.png" alt="Avatar" class="image"/> */}
             <img  src={groomingCover} alt="cover" className="image" />
             <div class="overlay">
               <div class="text">Grooming</div>
             </div>
           </div>
-          <div id="advertising" className="boxes" data-aos="fade-left">
+          <div id="advertising" className="boxes" data-aos="fade-up-left">
           {/* <img src="http://sofirub.com/wp-content/uploads/2019/05/23-1100x734.jpg" alt="Avatar" class="image"/> */}
           <img  src={advertisingCover} alt="cover" className="image" />
             <div class="overlay">

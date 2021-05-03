@@ -1,0 +1,46 @@
+.ig{
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 448px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 3%;
+  box-sizing: border-box;
+  margin-top: 6%;
+
+
+
+
+  
+}
+
+.container {
+  height: 498px;
+  
+  box-sizing: border-box;
+  
+}
+
+#ig1 {
+  background-image: url("https://i.ibb.co/x2bSd43/IMG-7600.jpg"); /* The image used */
+}
+
+#ig2 {
+  background-image: url("https://i.ibb.co/MPfkDpV/IMG-1884.jpg"); /* The image used */
+}
+
+#ig3 {
+  background-image: url("https://i.ibb.co/KXNGLmK/Unknown.png"); /* The image used */
+}
+
+#ig4 {
+  background-image: url("https://i.ibb.co/R6QFgjP/RUBINSTEIN-EDIT-18.jpg"); /* The image used */
+}
+
+#ig5 {
+  background-image: url("https://i.ibb.co/SyXCT2G/IMG-9566.jpg"); /* The image used */
+}
+
+#ig6 {
+  background-image: url("https://i.ibb.co/7NVCWQZ/juanlofficiel-001.jpg"); /* The image used */
+}

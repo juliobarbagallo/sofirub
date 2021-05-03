@@ -8,6 +8,7 @@ import Beauty from './components/BeautyPage/Beauty';
 import Grooming from './components/Grooming';
 import Advertising from './components/Advertising';
 import Instagram from './components/InstagramPage/Instagram'
+import Contact from './components/ContactPage/Contact'
 // import { Box, Container,} from '@chakra-ui/react';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/grooming" component={Grooming} />
         <Route path="/advertising" component={Advertising} />
         <Route path="/instagram" component={Instagram} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     
     

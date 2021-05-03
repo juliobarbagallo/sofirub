@@ -47,6 +47,7 @@ function Nav() {
               <NavLink className="nav" to="/beauty">Beauty</NavLink>   
               <NavLink className="nav" to="/grooming">Grooming</NavLink>
               <NavLink className="nav" to="/advertising">Advertising</NavLink>  
+              <NavLink className="nav" to="/contact">Contact</NavLink>
             </HStack>
           </HStack>
           <Flex alignItems={'center'} justifyContent={'space-between'}>
@@ -69,7 +70,8 @@ function Nav() {
               <NavLink className="nav" to="/editorial">Editorial</NavLink>
               <NavLink className="nav" to="/beauty">Beauty</NavLink>
               <NavLink className="nav" to="/grooming">Grooming</NavLink>
-              <NavLink className="nav" to="/advertising">Advertising</NavLink>  
+              <NavLink className="nav" to="/advertising">Advertising</NavLink>
+              <NavLink className="nav" to="/contact">Contact</NavLink>
             </Stack>
           </Box>
         ) : null}

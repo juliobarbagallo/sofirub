@@ -10,8 +10,8 @@
 
 #instagram{
   width: 30%;
-  height: 450px;
-  background-color: brown;
+  height: 500px;
+  /* background-color: brown; */
   margin: 2.5px;
   border-radius: 1%;
   box-sizing: border-box;
