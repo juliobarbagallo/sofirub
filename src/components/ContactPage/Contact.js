@@ -9,6 +9,7 @@ import {
 import { GiHairStrands } from "react-icons/gi";
 import { BiWorld } from "react-icons/bi";
 import { GrLocationPin } from "react-icons/gr";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Contact() {
   return (
@@ -57,6 +58,19 @@ export default function Contact() {
         </Text>
         </Stack>
         
+        <Stack  align={'center'} justify={'center'} direction={'row'} mt={6}  >
+        <AiOutlineMail  />
+        <Text
+          textAlign={'center'}
+          color={useColorModeValue('gray.700', 'gray.400')}
+          px={3} 
+          
+          >
+          
+          sofia.rubinstein@gmail.com{' '}
+          
+        </Text>
+        </Stack>
 
       
       </Box>
